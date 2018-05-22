@@ -1,0 +1,27 @@
+{
+  "name": "qrCodeLavid",
+  "version": "0.0.1",
+  "description": "Seleciona um elemento aleatorio do mongodb e transforma os dados em Qrcode",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reny122010/qrcode-lavid.git"
+  },
+  "keywords": [
+    "qrcode"
+  ],
+  "author": "Renê Alves",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/reny122010/qrcode-lavid/issues"
+  },
+  "dependencies": {
+    "express": "~4.16.3",
+    "qr-image": "~3.2.0",
+    "mongodb": "^2.2.33",
+    "body-parser": "~1.18.3"
+  }
+}
